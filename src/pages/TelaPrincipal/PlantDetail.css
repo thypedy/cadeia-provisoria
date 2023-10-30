@@ -1,0 +1,74 @@
+.container {
+  text-align: center;
+}
+
+.voltar {
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+}
+
+.custom-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Add padding to adjust spacing */
+}
+
+.icons {
+  display: flex;
+  gap: 10px; /* Adjust the gap as needed */
+}
+
+.Loca-name{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text-line {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.button-line {
+  width: 100%;
+  display: flex; /* Use flex to center the buttons */
+  justify-content: center; /* Center items horizontally */
+  gap: 10px; /* Add some spacing between buttons */
+}
+
+.textao{
+  font-size: 15px;
+  margin: 4px 0;
+}
+
+.preco{
+  font-size: 25px;
+  margin: 4px 0;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px solid #000; /* Add a border for the box */
+  padding: 35px 25px; /* Add some padding to the box */
+  border-radius: 10px; /* Add rounded corners */
+  margin: 0 30px;
+  margin-top: 5px;
+}
+
+.locations2{
+  display: flex;
+  align-items: center;
+  color: #34E470;
+}
+
+.textinho-borda{
+  border-bottom: 2px #34E470 dotted;
+}

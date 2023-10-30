@@ -1,0 +1,22 @@
+.plant-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd; /* Optional: Add a border for better separation */
+  }
+  
+  .plant-image {
+    max-width: 150px; /* Adjust the image width as needed */
+    margin-right: 10px; /* Add some spacing between the image and other elements */
+  }
+  
+  /* Style other elements on the right as needed */
+  .plant-details {
+    flex-grow: 1; /* Allow details to take available space on the right */
+  }
+  
+  /* Style individual elements within .plant-details as needed */
+  .plant-name {
+    font-weight: bold;
+  }

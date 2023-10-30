@@ -1,0 +1,55 @@
+  .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #226BBE;
+    margin-bottom: 3px;
+  }
+  
+  .headerTitle {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .searchContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    margin: 10px 10px;
+    height: 45px;
+    border-radius: 35px;
+    border: 1px solid #C5C5C5;
+    background-color: #E5E7E9;
+    padding: 0px 15px;
+  }
+  
+  .searchIcon {
+    margin-left: 5px;
+  }
+  
+  .searchInput {
+    flex: 1;
+    font-size: 16px;
+    height: 40px;
+    color: #000;
+  } 
+
+  .item{
+    border: 1px solid transparent;
+    background-color: transparent;
+  }
+
+  ion-buttons{
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  ion-icon{
+    font-size: 25px;
+  }
+
+  .icones{
+    font-size: 40px;
+  }
