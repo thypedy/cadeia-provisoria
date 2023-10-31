@@ -7,6 +7,7 @@ import Login from './pages/TelaLogin/Login';
 import Cadastro from './pages/TelaCadastro/Cadastro';
 import Principal from './pages/TelaPrincipal/Principal';
 import PlantDetail from './pages/TelaPrincipal/PlantDetail';
+import ButtonDetail from './pages/TelaPrincipal/ButtonDetail';
 
 const AppRouter: React.FC = () => (
   <IonRouterOutlet>
@@ -18,6 +19,7 @@ const AppRouter: React.FC = () => (
     <Route exact path="/cadastro" component={Cadastro} />
     <Route exact path="/principal" component={Principal} />
     <Route exact path="/plant/:id" component={PlantDetail} />
+    <Route exact path="/buttonDetail" component={ButtonDetail} />
     
   </IonRouterOutlet>
 );

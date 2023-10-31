@@ -1,4 +1,3 @@
-import React from "react";
 import {
   IonContent,
   IonItem,
@@ -46,7 +45,18 @@ const PlantDetail: React.FC = () => {
             <IonIcon icon={ellipsisHorizontal} color="primary" />
           </div>
         </div>
-        <img src={plantData.image} alt={plantData.name} />
+
+        <div className="image-container">
+          <img src={plantData.image} alt={plantData.name} className="plant-images" />
+          <div className="centered-button">
+            <IonRouterLink routerLink="/buttonDetail" routerDirection="forward">
+            <IonButton expand="block" color="dark">
+              Visualizar
+            </IonButton>
+            </IonRouterLink>
+          </div>
+        </div>
+
         <p>{plantData.subtitle}</p>
         <div className="Loca-name">
           <div className="locations2">

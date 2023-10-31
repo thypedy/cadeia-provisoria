@@ -72,3 +72,21 @@
 .textinho-borda{
   border-bottom: 2px #34E470 dotted;
 }
+
+.image-container {
+  position: relative;
+  width: 100%;
+}
+
+.plant-images {
+  width: 100%; /* Adjust size as needed */
+  height: auto; /* Adjust size as needed */
+}
+
+.centered-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 30%; /* Adjust width as needed */
+}

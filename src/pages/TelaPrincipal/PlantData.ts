@@ -7,7 +7,7 @@ const PlantData = [
       image: Apart1,
       name: 'Casa Dorothea',
       location: 'Rua Dr.Chaves',
-      subtitle: 'uma linda casa perto de uma praia',
+      subtitle: 'Uma linda casa perto de uma praia',
       valor: 'R$ 57.00',
     },
     {
